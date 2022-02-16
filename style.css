@@ -1,0 +1,359 @@
+
+*{
+    margin: 0;
+    padding:0 ;
+   box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 248, 248);
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+}
+header{
+    display: flex;
+    width: 75%;
+    height: 13vh;
+    margin: auto;
+    align-items: center;
+}
+.logo-container,.nav-links{
+   display: flex;
+}
+.logo-container{
+    flex: 1;
+}
+nav{
+    display: flex;
+    flex:6;
+    align-items: center;
+    
+}
+.nav-links{
+    display: flex;
+    flex: 2;
+    list-style: none;
+    line-height: 70px;
+    justify-content: space-around;
+}
+.nav-link{
+    text-decoration: none;
+    color:rgba(43, 41, 41, 0.68);
+    font-size: 18px;
+}
+.presentation{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 0 0 0 50px ;
+    min-height: 80vh;
+    align-items: center;
+}
+.introduction{
+    flex: 1;
+    height: 60vh;
+}
+.cover{
+    flex: 1;
+}
+.cover img{
+    height: 85vh;
+}
+.intro-text h1{
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(78, 77, 77)
+    
+}
+.intro-text p{
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(75, 74, 74);
+}
+.intro-text {
+   padding: 40px;
+}
+.form{
+    padding: 0px 0px 0px 40px;
+}
+.select{
+    font-size: 20px;
+    border-radius: 70px;
+    line-height: 30px;
+    width: 200px;
+    height: 60px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(82, 14, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff
+}
+.presentation2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 0 0 0 100px;
+    min-height: 80vh;
+    align-items: center;
+}
+.introduction2{
+    flex: 1;
+    height:60vh ;
+}
+.intro-text2{
+    padding: 50px;
+}
+.cover2{
+    flex: 1;
+}
+.cover2 img{
+    height: 45vh;
+    margin: 0 0 50px 0;
+} 
+.intro-text2 img{
+  width: 80px;
+  vertical-align: middle;
+}
+.intro-text2 h2{
+    font-family:sans-serif;
+    font-style:initial;
+    font-weight: bolder;
+    color: rgb(75, 74, 74);
+}
+.intro-text2 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(75, 74, 74);
+    font-size: large; 
+}
+.presentation3{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 0 0 0 100px;
+    min-height: 80vh;
+    align-items: center;
+}
+.introduction3{
+    flex: 1;
+    height:60vh ;
+}
+.cover3{
+    flex: 1;
+}
+.intro-text3{
+    padding: 50px;
+}
+.cover3 img{
+    height: 75vh;
+    margin: 0 0 50px 0;
+} 
+.intro-text3 img{
+    width: 80px;
+    padding: 0 0 0 300px;
+    vertical-align: middle;
+  }
+  .intro-text3 h2{
+    font-family:sans-serif;
+    font-style:initial;
+    font-weight: bolder;
+    color: rgb(75, 74, 74);
+}
+.intro-text3 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(75, 74, 74);
+    font-size: large; 
+}
+.presentation4{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 0 0 0 100px;
+    min-height: 80vh;
+    align-items: center;
+}
+.introduction4{
+    flex: 1;
+    height:60vh ;
+}
+.cover4{
+    flex: 1;
+}
+.intro-text4{
+    padding: 50px;
+}
+.cover4 img{
+    height: 75vh;
+    margin: 0 0 50px 0;
+} 
+.intro-text4 img{
+    width: 80px;
+    vertical-align: middle;
+  }
+  .intro-text4 h2{
+    font-family:sans-serif;
+    font-style:initial;
+    font-weight: bolder;
+    color: rgb(75, 74, 74);
+}
+.intro-text4 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(75, 74, 74);
+    font-size: large; 
+}
+.container{
+    width: 75%;
+    height: 10vh;
+    margin: auto;
+}
+.footer-menu,.social-account{
+    display: flex;
+}
+.social-account{
+    flex: 1;
+    align-items: center;
+}  
+ #footer .footer-menu{
+  margin-top: 30px;
+}
+#footer .footer-menu ul{
+    margin-right: 125px;
+    margin-bottom: 0;
+}
+ul{
+    padding-inline-start: 0;
+    padding: 0;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.footer-menu ul li {
+  list-style: none;
+  color: #8d8989;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #8d8989;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#footer:before{
+    content: "";
+    position: absolute;
+    border: 1px solid  rgba(141, 137, 137, .68);
+    top: 0;
+    width: calc(100% + 60px);
+    left: -30px;
+}
+.inputHolder{
+     display: flex;
+     align-items: center;
+     position: relative;
+      border: none;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+}
+.inputholder{
+    position: relative;
+}
+.inputHolder input{
+    width: 180px;
+    padding: 8px 45px 8px 13px;
+    background-color: #ededed;
+    border-radius: 22px;
+    border: none;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: .5s;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.search-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background-color: transparent;
+    border: none;
+}
+.footer-about,.footer-links,.footer-subscribe{
+    flex:1;
+}
+#footer{
+    padding: 30px 15px 80px;
+    position: relative;
+}
+.footer-subscribe-form{
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+.footer-subscribe-form button{
+    position: absolute;
+    background: linear-gradient(90deg,#4a48f2,#3429bc);
+    right: 0;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 16px;
+   height: 100%;
+    
+}
+.social-account a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height:  36px;
+    background-color: #d3d3d3;
+    border-radius: 100%;
+    margin-right: 16px;
+    transition: .5s;
+    text-decoration: none;
+}
+.social-account a i{
+    color: #fff;
+    font-size: 20px;
+}
+ .footer-subscribe form  input {
+    width: 204px;
+    padding: 8px 55px 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+}
+.footer-subscribe-form svg{
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+ .search-form{
+     margin-bottom: 0;
+     margin-top: 0em;
+     
+ }  
+  .sign-in-button{
+    background-color: #f4edfe;
+    border-radius: 2.5rem;
+    color: #782cff;
+    font-weight: 700;
+    font-size: 2.1rem;
+    height: 4.4rem;
+    min-width: 12rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+   
+   
+
